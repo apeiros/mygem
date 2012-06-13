@@ -1,6 +1,12 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
+# this is mostly for convenience during development. I prefer using `ruby -Ilib` instead
+lib_dir = File.expand_path('../../lib', __FILE__)
+$LOAD_PATH << lib_dir if File.directory?(lib_dir)
+
+
+
 require 'hola'
 
 puts Hola.hi(:english)
