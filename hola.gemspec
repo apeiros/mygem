@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.date        = '2012-06-13'
   s.summary     = "hola"
   s.description = "hello world gem"
-  s.authors     = ["shyz"]
+  s.authors     = ["fragrant"]
   s.email       = 'temp@gmail.com'
   s.files       = ["lib/hola.rb"]
   s.homepage    =
