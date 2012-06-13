@@ -1,5 +1,3 @@
-#!/home/user1/.rvm/rubies/ruby-1.9.3-p194/bin/ruby
-
 require 'hola/translator'
 
 class Hola
@@ -8,5 +6,3 @@ class Hola
     translator.hi
   end
 end
-
-puts Hola.hi(:english)
